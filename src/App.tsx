@@ -7,9 +7,9 @@ import Menu from "./screens/Menu/Menu";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path="/menu" element={<Menu />} />
+          <Route path="/" element={<Menu />} />
         </Routes>
       </Router>
     </div>
