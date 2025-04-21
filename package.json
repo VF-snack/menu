@@ -2,7 +2,7 @@
   "name": "v-menu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://VF-snack.github.io/menu",
+  "homepage": "https://VF-snack.github.io/menu.git",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
